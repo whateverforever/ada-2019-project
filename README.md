@@ -28,7 +28,7 @@ strategically (like every saturday) or impulsively? (Education)
 * Do lower income people rely on coupons? If so, are there food choices steered by the available coupons? —> Responsibility of Shops? Education?
 * Do coupons actually save money or do they just lead to people buying certain brands which are still more expensive?
 * What does the grocery shopping behaviour look like time wise? Do families do weekly shopping tours, opposed to students doing daily tours? 
-* **Market Basket Analysis**: reveal association between different items — identify items in transactions that are frequently bought together —> [Association Rules] (https://www.saedsayad.com/association_rules.htm)
+* **Market Basket Analysis**: reveal association between different items — identify items in transactions that are frequently bought together —> [Association Rules](https://www.saedsayad.com/association_rules.htm)
 * **Customer Segmentation**: identify groups/clusters of customers differing in product interest/market participation/response to marketing — come up with potential recommendations for retail (wrt. product placement, promotional efforts, etc.) 
 * Analysis on brands (private or national). Which is more expensive? What do people buy? 
 
