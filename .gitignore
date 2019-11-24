@@ -3,3 +3,4 @@ dunnhumby/causal_data.csv
 dunnhumby/transaction_data.csv
 .DS_Store
 *.csv
+.ipynb_checkpoints
