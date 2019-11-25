@@ -62,7 +62,7 @@ Add here a sketch of your planning for the next project milestone.
 * 22/11: First design/structure of the data story
 * 25/11: Return for second milestone
 
-# Milestone 3 -- whats coming next
+# Milestone 3 — next steps
 
 * *Campaign and coupons analysis:* continue our analysis on how retailers promote different categories of food and how people respond to it. In practice, this means for instance combining what has already been done with the transactions to find out how much people save money thanks to these campaigns and if it differs from one category of food to another.
 
