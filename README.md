@@ -23,8 +23,8 @@ Knowledge about interdependencies and drivers of customer preferences and behavi
     * Do single-person households consume less meat than families (avg. per person)? 
 
 ## Marketing strategies
-_Identify clusters._
-**Customer Segmentation**: identify groups/clusters of customers differing in product interest/market participation/response to marketing — come up with potential recommendations for retail (wrt. product placement, promotional efforts, etc.) 
+* **Identify clusters with Customer Segmentation**
+    * Identify groups/clusters of customers differing in product interest/market participation/response to marketing — come up with potential recommendations for retail (wrt. product placement, promotional efforts, etc.) 
 
 
 # Dataset
