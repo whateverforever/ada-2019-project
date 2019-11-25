@@ -1,36 +1,36 @@
-# Latent structures in Household Transactional Data — A societal study 
+# Latent structures in Household Transactional Data — A societal study identifying meat consumption patterns
 
 # Abstract
 > A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
 
+The consumption of everyday commodity products offers the potential to reveal societal inequalities, as well as to identify social milieus including their habits and behaviors. With transactions from more than 2500 households from different societal status over 2 years we try to identify hidden relationships and patterns. This project work will focus on two consecutive interwined aspects: societal latent structures in consumption and transaction behavior and vegetarianism.
 
-The consumption of everyday commodity products offers the potential to reveal societal inequalities, as well as to identify social milieus including their habits and behaviors. With transactions from more than 2500 households from different societal status over 2 years we try to identify hidden relationships and patterns. The project work will focus on three main aspects: societal implications & structures, health aspects and marketing strategies.
+This dataset offers the chance to link societal status, income and living constellations to a topic which gains more and more importance in recent times with growing concerns in **climate change: our meat consumption**. This form of _human diet_ can actively promote a change in the amount of greenhouse-gas emissions [[Nature 572, 291-292 (2019)](https://www.nature.com/articles/d41586-019-02409-7)].
 
-A healthy lifestyle should be one of our top priorities implying that the quality and choice of the food we eat is really important. Hence, we want to assess if people buy high quality food using nutritional values for common ingredients and if there are differences between different groups of people (low/high income, single/with family).
-
-Knowledge about interdependencies and drivers of customer preferences is a crucial factor for effective customer-based strategies. Personalized offers can improve a more precise targeting and successful marketing, satisfying both the customer himself, as well as the retail industry. Further, smart marketing strategies could also be used to change the consumption behavior of households. For instance, the assumed correlation of households with lower incomes buying lower-quality/unhealthy food could be dispersed by placing well-suited advertisements for healthier food.
-
+Knowledge about interdependencies and drivers of customer preferences and behaviors is a crucial factor for effective customer-based strategies. With this knowlegde at hand, it might be possible to develop new strategies to actively take influence on improving awareness for meat consumption via more precisely targeted advertisements and promotions, satisfying both the customer himself, as well as the retail industry. For instance, the assumed correlation of households with lower income households exhibiting a less balanced/more meat-focused food could be dispersed by placing well-suited advertisements for more vegetarian food.
 
 # Research questions
 > A list of research questions you would like to address during the project. 
 
 ## Societal Analysis
-* Does the income level imply a potential level of education (i.e. do people with higher incomes buy more books and what influence does the amount of children take on it?)?
-* What kind of products are promoted? How many promotions do exist on books/educational products? Does the advertising industry push our society towards “bad habits”?
+* **Do the food consumption patterns/habits reflect the belonging to a social class?**
+* What kind of products are promoted? 
+  * How many promotions do exist on books/educational products? Does the advertising industry push our society towards “bad habits”?
+  * Does the income level imply a potential level of education (i.e. do people with higher incomes buy more books and what influence does the amount of children take on it?)? 
 
-## Quality of food
-* Is eating healthy more expensive? Are there differences in the quality of food between low and high income households?  Do people with higher income spend more money on (higher quality) food?
-* Do single-person households eat more or less healthy? Do married couples eat more healthy (vs multi-people non-married households)? (Promoting Individualism vs Traditional Family values)
-* Do poor people/married people/people who buy unhealthy food buy
-strategically (like every saturday) or impulsively? (Education)
+## Vegetarianism
+* **What is the proportion of vegetarian products in the total houshold spendings? (i.e. how much money is spent on healthy foods?)**
+    * Does vegetarianism and the awarneess correlate with the level of income, i.e. social status?
+    * Do single-person households consume less meat than families (avg. per person)? 
 
 ## Marketing strategies
+_Identify clusters._
+**Customer Segmentation**: identify groups/clusters of customers differing in product interest/market participation/response to marketing — come up with potential recommendations for retail (wrt. product placement, promotional efforts, etc.) 
+
+_Analysis on clusters and their commonalities & diferences._
 * Do lower income people rely on coupons? If so, are there food choices steered by the available coupons? —> Responsibility of Shops? Education?
-* Do coupons actually save money or do they just lead to people buying certain brands which are still more expensive?
-* What does the grocery shopping behaviour look like time wise? Do families do weekly shopping tours, opposed to students doing daily tours? 
-* **Market Basket Analysis**: reveal association between different items — identify items in transactions that are frequently bought together —> [Association Rules](https://www.saedsayad.com/association_rules.htm)
-* **Customer Segmentation**: identify groups/clusters of customers differing in product interest/market participation/response to marketing — come up with potential recommendations for retail (wrt. product placement, promotional efforts, etc.) 
-* Analysis on brands (private or national). Which is more expensive? What do people buy? 
+* Do different households with different levels of income exhibit different buying strategies (i.e. grocery shopping once a week or only buying products on promotion)? 
+* Does the use of coupons actually save money or do they just lead to people buying certain brands which are still more expensive?
 
 # Dataset
 > List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
@@ -42,9 +42,9 @@ strategically (like every saturday) or impulsively? (Education)
 * How to merge datasets with very different identifiers (e.g. “BROCCOLI/CAULIFLOWER,CAULIFLOWER WHOLE” vs “broccoli, raw”)?
 
 ## Limitations of the dataset 
-* no time/location indications
-* different identifiers to same concepts —> how to merge?
-* demographic data only on 800 households, income very broadly categorized —> potentially reducing the size of the dataset 
+* No time/location indications —> This might bring up limitations in the ability to reason about the awareness of househoulds regarding their meat consumption as this concern/trend is a rather recent one.
+* Different identifiers to same concepts —> how to merge?
+* Demographic data only on 800 households, income very broadly categorized —> potentially reducing the size of the dataset 
 
 # A list of internal milestones up until project milestone 2
 Add here a sketch of your planning for the next project milestone.
