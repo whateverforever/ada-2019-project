@@ -1,5 +1,7 @@
 # Latent structures in Household Transactional Data — A societal study identifying meat consumption patterns
 
+> File with analysis: `data_analysis.ipynb`
+
 # Abstract
 > A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
 
@@ -60,8 +62,17 @@ Add here a sketch of your planning for the next project milestone.
 * 22/11: First design/structure of the data story
 * 25/11: Return for second milestone
 
-# Questions for TA’s
-> Add here some questions you have for us, in general or project-specific.
+# Milestone 3 -- whats coming next
+
+* *Campaign and coupons analysis:* continue our analysis on how retailers promote different categories of food and how people respond to it. In practice, this means for instance combining what has already been done with the transactions to find out how much people save money thanks to these campaigns and if it differs from one category of food to another.
+
+* *Household behaviour:* continue our analysis on the demographics in order to find different behaviour (due to income or type of family) towards meat consumption and vegetarianism in general.
+
+* *Advertisement analysis:* continue analysis (look at both distribution of ads within one category of food and across all categories, which ones get more ads in the best displays) and combine results with campaign and coupons analysis.
+
+Ultimately, our goal would be to combine more and more our results in order to get a precise understanding of both retailers and consumers towards meat consumption and vegetarianism in general.
+
+
 
 
 
