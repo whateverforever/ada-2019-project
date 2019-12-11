@@ -81,10 +81,10 @@ Ultimately, our goal would be to combine more and more our results in order to g
   
 * Meat Consumption along demographic categories
   * 19-24 year olds eat **more** meat thann 65+ year olds
-    [ ] run significance tests
+    - [ ] run significance tests
   * Normalized amount (per day and household size) of meat of married people is lower than of single people 
   * _Income_: People <15k income eat the most meat, half of higher income (starting at 75k income) categories eat less meat than <15k category
-     [ ] Investigate 250k+ cluster 
+     - [ ] Investigate 250k+ cluster 
    * tbc
 
 
