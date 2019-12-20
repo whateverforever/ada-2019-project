@@ -25,17 +25,19 @@ It seems there is an inverse relation between the income people have and their m
 
 <div style="background-color:orange; width:100%; padding:20px; color:black;">Can we check this?</div>
 
-![d](images/demographics_meat_weight.png)
+![Meat consumption per day and income](images/demographics_meat_weight-income.png)
 
 Meat consumption is way less clear for the different age categories. In fact we can't say there is any significant difference between the age groups.
 
 <div style="background-color:orange; width:100%; padding:20px; color:black;">Run a test for this explicitly?</div>
 
+![Meat consumption per day and, grouped byage](images/demographics_meat_weight-age.png)
+
 It is different for the marital status, as we can see that households of married couples eat way less meat than single person households or households were the data doesn't specify. This might be due to healthier food choices made by parents, which are more likely to occur in married households.
 
 <div style="background-color:orange; width:100%; padding:20px; color:black;">Check this hypothesis (are there more kids in married households)!</div>
 
-
+![Meat consumption per day and, grouped byage](images/demographics_meat_weight-married.png)
 
 ## Campaign and what kind of food they promote
 
