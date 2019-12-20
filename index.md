@@ -3,6 +3,7 @@
   <h2>A societal study identifying meat consumption patterns</p>
 </header>
 
+<<<<<<< HEAD
 
 >Climate change is no longer some far-off problem; it is happening here, it is happening now.
 > -- <cite>[Barack Obama][1]</cite>
@@ -14,6 +15,9 @@
 Since this project's overall goal is **"Data Science for the good"**, an analysis of our daily consumption of everyday commodity products taken from Household Transactional Data offers the potential to reveal patterns and latent structures and relations in the interaction of marketing and transaction behavior on meat and vegetarian products. With transactions from more than 2500 households from different societal status over 2 years the data set "[Dunnhumby - The complete journey](https://www.dunnhumby.com/careers/engineering/sourcefiles)", used in this analysis, offers the chance to link societal status, income and living constellations to a topic which gains more and more importance **our meat consumption**. 
 
 Knowledge about interdependencies and drivers of customer preferences and behaviors is a crucial factor for effective customer-based strategies. Having these insights at hand, it might be possible to develop new strategies to actively take influence on improving awareness for meat consumption via more precisely targeted advertisements and promotions, satisfying both the customer himself, as well as the retail industry. For instance, a correlation of households with lower income households exhibiting a less balanced/more meat-focused food could be dispersed by placing well-suited advertisements for more vegetarian food.
+=======
+The consumption of everyday commodity products offers the potential to reveal societal inequalities, as well as to identify social milieus including their habits and behaviors. With more than 2.5 mio transactions from more than 2500 households from different societal strata over 2 years we try to identify hidden relationships and patterns. This project work focuses on two consecutive interwined aspects: societal latent structures in consumption and transaction behavior and vegetarianism.
+>>>>>>> f8fa88cc671f5d88c575d7359de4dd71fa78ddd7
 
 ## What kind of househould do we observe?
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="test.html" height="525" width="100%"></iframe>
@@ -46,12 +50,40 @@ Meat consumption is way less clear for the different age categories. In fact we 
 
 ![Meat consumption per day and, grouped byage](images/demographics_meat_weight-age.png)
 
-It is different for the marital status, as we can see that households of married couples eat way less meat than single person households or households were the data doesn't specify. This might be due to healthier food choices made by parents, which are more likely to occur in married households.
+It is different for the marital status, as we can see that households of married couples eat way less meat than single person households or households were the data doesn't specify. This might be due to healthier food choices made by parents, which are more likely to occur in married households. Unfortunately, this can't be answered with confidence, due to the dataset not having detailed enough information about the number of kids.
 
-<div style="background-color:orange; width:100%; padding:20px; color:black;">Check this hypothesis (are there more kids in married households)!</div>
+![Meat consumption per day and, grouped by marital status](images/demographics_meat_weight-married.png)
 
-![Meat consumption per day and, grouped byage](images/demographics_meat_weight-married.png)
+However, if we regroup the existing data we have about adults without kids and kids vs singles, we can still see some amusing differences.
+
 
 ## Campaign and what kind of food they promote
+Marketing plays a big role in people's grocery shopping behaviour. Are people directed to buy meat and fish? To take a look at that we observe two marketing aspects: Campaigns which distribute coupons and advertisment.
+
+We first look at the coupons distributed by the 30 campaigns. To get an vague idea of the campaigns, we look at how many coupons they distribute and at how many coupons are actually redeemed.
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/campaign_overview.html" height="525" width="100%"></iframe>
+Let's take a closer look at the coupons and what food categories are promoted.
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/Campaign_proportion_food.html" height="525" width="100%"></iframe>
+
+Do the campaigns promote meat and fish consumption?
+<img src="data/campaign_veg.png">
+
+The campaign individual shares of meat or fish related coupons are mostly low. Furthermore, vegetarian products are promoted more. It seems like campaigns do not promote meat and fish consumption. 
+
+It is also interesting to see how many of the distributed coupons are redeemed in the end.
+
+<img src="data/campaign_veg_re.png">
+
+The proportions of distributed and redeemed coupons are quite similar. Thus, the usage rate of meat and fish coupons and vegetarian coupons are comparable aswell. We can draw the conclusion that campaigns do not direct people to buy non-vegetarian food. 
+
+Next, we look at the other marketing aspect: advertisement. How are the different food categories advertised?
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/ad_types.html" height="525" width="100%"></iframe>
+
+The best postition in a magazine is certainly the front page. Approximately 15% of all meat and only 1% of the fish products are advertised on the frontpage. On the other hand, vegetarian animal product are in 30% of the time are displayed on the frontpage. The numbers for vegetables and fruits are 10% and 7% respectively. Again, it does not appear that meat or fish is particularly advertised.
+
+In conclusion, we can say that marketing does not promote meat and fish consumption.
 
 ## How do consumers react to those campaigns?
