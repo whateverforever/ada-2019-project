@@ -87,7 +87,7 @@ As expected, since we already know that most coupons are redeemed, the picture h
 
 Let's try to summarize these observations by having a more general view, looking at the average proportion of coupons distributed and redeemed for vegetarian and non-vegetarian products, across all the campaigns. We display those means with the corresponding errors at 95% confidence level. 
 
-![](images/veg-nonveg-coupons.png)
+![](images/veg-nonveg-coupons.svg)
 
 Since the errorbars seem to overlap (at least for the coupons redeemed) we run additional statistical tests to find out if the differences observed are significant. The proportions of coupons are the following:
 <ul>
