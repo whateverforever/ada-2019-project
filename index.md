@@ -16,8 +16,13 @@ Knowledge about interdependencies and drivers of customer preferences and behavi
 <!-- <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="test.html" height="525" width="100%"></iframe> -->
 This data set contains 2500 households who are frequent shoppers at a retailer. It contains all of each household's purchases from a diverse number of categories (not only food-related). For certain households (801 out of 2500), also demographic information, as well as direct marketing contact history was included. This covers at least one third of the population to gain an overview of the demographic landscape of the corresponding data set. 
 
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/household_dist.html" height="525" width="100%"></iframe>
+
 First looking at the age ranges, the biggest share (~35%) of households covers a range of 45-54 years, followed by a range of 35-44 (~25%). The smallest share is represented by the 19-24 years range, corresponding in most cases to Single Households. It can be further inferred that most of the 801 households are married or at least in partnership, which split up in nearly equally sized subgroups of having children and not having children. The third group in the marital categorization is includes Single households. It includes households from all age ranges. 
 
+Further the demographic description provides insight in the financial situation of the households, covering a range from households earning below $15K up to $250K+, whereas the biggest group is represented by the households earning 50 to $64K, which is a roughly reasonable estimate of the "real" population. 
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/income_dist.html" height="525" width="100%"></iframe>
 
 ## Consumption Behaviour
 
