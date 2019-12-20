@@ -87,6 +87,9 @@ The campaign individual shares of meat or fish related coupons are mostly low. F
 
 The proportions of distributed and redeemed coupons are quite similar. Thus, the usage rate of meat and fish coupons and vegetarian coupons are comparable aswell. Testing if there is a difference between vegetarian and non-vegetarian coupons, we find that there actually are significantly (95% CI) more coupons distributed for vegetarian than non-vegetarian products.
 
+<div style="background-color:orange; width:100%; padding:20px; color:black;">Either remove right hand side plot, or write in text, that we can't say anything about the difference in redemption</div>
+
+
 ![](images/veg-nonveg-coupons.png)
 
 We can draw the conclusion that campaigns do not direct people to buy non-vegetarian food. Quite the opposite, it seems like more effort is spent on trying to sell non-meat and non-fish coupons!
