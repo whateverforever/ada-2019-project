@@ -3,4 +3,6 @@ dunnhumby/causal_data.csv
 dunnhumby/transaction_data.csv
 .DS_Store
 *.csv
+*.pickle
+*.pkl
 .ipynb_checkpoints
