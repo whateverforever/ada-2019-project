@@ -32,7 +32,6 @@ Let's look at a plot of the different income groups we have. To be able to actua
 
 ![Meat consumption per day and income](images/demographics_meat_weight-income.png)
 
-<<<<<<< HEAD
 The graph reveals the following: Households with lower income (i.e. an income of less than 15K per year) tend to buy more meat that groups that earn between 75-149K. On the one hand, this might seem counter-intuitive in countries like Switzerland, since meat can be very expensive there. On the other hand, nowadays there exist many cheap meat products from factory farming, especially in countries like Germany or Austria. However, if we check with our data, we see that meat in fact is more expensive than the rest, with a median price of $3.50, versus $2.66 for food in general. 
 
 Another interesting observation is that the lowest meat consumption comes from the second highest income group of 200-249K. The consumption is significantly lower than of the aforementioned income brackets. This provides ground for the assumption that there actually is an inverse relation between the household's income and their meat consumption. However, this is still only a very weak assumption since the share of high-income families in the data set is very small and definitely not exhaustive for the bigger population. Also, regarding the fact that the household group earning $250K+ shares roughly the average meat consumption with the other groups. Further, the household composition of these groups is not equally distributed, meaning the $200-$249K group does not incorporate any singles and the $250K group is dominated by adults without kids. Albeit the above limitations, this assumption could also imply that households and especially families with higher incomes are potentially more conscious about their food choices, buying for example fewer, but higher quality meat and more vegetables.
@@ -87,8 +86,8 @@ Let's try to summarize these observations by having a more general view, looking
 
 Since the errorbars seem to overlap (at least for the coupons redeemed) we run additional statistical tests to find out if the differences observed are significant. The proportions of coupons are the following:
 <ul>
-  <li>coupons distributed: 20.2 &plusmn 9.24 % (veg) vs 7.55 &plusmn 4.16 % (non-veg)</li>
-  <li>coupons redeemed: 14.4 &plusmn 8.12 % (veg) vs 6.11 &plusmn 3.63 % (non-veg)</li>
+  <li>coupons distributed: 20.2 ± 9.24 % (veg) vs 7.55 ± 4.16 % (non-veg)</li>
+  <li>coupons redeemed: 14.4 ± 8.12 % (veg) vs 6.11 ± 3.63 % (non-veg)</li>
 </ul>
 
 Since the assumptions of normality and equality of variances are not met by the two groups of coupons, we have run the Mann-Whitneyu's test to find out if the differences are indeed significant. The results are conclusive for the coupons distributed (U=297, p-value=0.0117 < 0.05), meaning there is a significant difference in the proportion of coupons distributed for vegetarian and for non-vegetarian products. Unfortunately this is not the case for the coupons redeemed (U=370, p-value=0.1162 > 0.05), meaning that the proportions in the two categories could in fact be similar.
@@ -107,4 +106,5 @@ The best position in a magazine is certainly the front page. Approximately 15% o
 In conclusion, we can say that it seems like marketing does not promote meat and fish consumption, but instead does so for vegetarian products, meaning that there is still hope for our planet! :-) 
 
 In Love,
+
 Your dADA-Scientists 
