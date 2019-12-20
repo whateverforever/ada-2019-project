@@ -1,6 +1,7 @@
 # Latent structures in Household Transactional Data — A societal study identifying meat consumption patterns
 
 > File with analysis: `data_analysis.ipynb`
+
 > [Final Data Story](https://brudermueller.github.io/ada-2019-project/)
 
 # Abstract
