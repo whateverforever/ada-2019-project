@@ -5,9 +5,9 @@ The consumption of everyday commodity products offers the potential to reveal so
 ## What kind of househould do we observe?
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="test.html" height="525" width="100%"></iframe>
 
-![d](images/demographics_meat_weight.png)
-
 ## Comsumption behaviour
+
+![d](images/demographics_meat_weight.png)
 
 ## Campaign and what kind of food they promote
 
