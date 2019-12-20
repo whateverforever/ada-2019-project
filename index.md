@@ -11,6 +11,8 @@ Are there differences in the meat consumption between incomes? Do people with a 
 
 Let's look at a plot of the different income groups we have. To be able to actually say anything about the data, we also plot the 95% confidence interval.
 
+![Meat consumption per day and income](images/demographics_meat_weight-income.png)
+
 We notice a few things: Lower income people with an income of less than 15K per year tend to buy more meat that people that earn between 75-149K. On the one hand, this seems counter-intuitive, since meat can be very expensive. On the other hand, nowadays many cheap meat products from factory farming exist. 
 
 <div style="background-color:orange; width:100%; padding:20px; color:black;">Include average prices of meat and other shit</div>
@@ -24,8 +26,6 @@ It seems there is an inverse relation between the income people have and their m
 ... or that they are more conscious about their food choices, buying for example fewer, but higher quality meats.
 
 <div style="background-color:orange; width:100%; padding:20px; color:black;">Can we check this?</div>
-
-![Meat consumption per day and income](images/demographics_meat_weight-income.png)
 
 Meat consumption is way less clear for the different age categories. In fact we can't say there is any significant difference between the age groups.
 
