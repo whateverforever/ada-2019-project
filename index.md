@@ -73,11 +73,11 @@ Feel free to explore what kind of food items are being promoted by the campaigns
 
 Let's have a look at the proportions of coupons distributed for vegetarian and non-vegetarian products.
 
-![proportion of coupon distributed per category for each campaign](data/campaign_veg.png)
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/coupon_dis_food_cat.html" height="525" width="100%"></iframe>
 
 We can see that the campaign individual shares of meat or seafood related coupons are mostly low. Only in 5 campaigns out of 30 the proportion of coupons distributed for non-vegetarian products is higher (campaigns 8, 13, 17, 18 and 23). It seems that campaigns tend to promote more vegetarian products, but do we have the same picture from the people point of view? Let's have a look at the proportions of coupons redeemed by the households to answer this. Here again, we have grouped products into two categories: vegetarian and non-vegetarian.
 
-![proportion of coupon redeemed per category for each campaign](data/campaign_veg_re.png)
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/coupon_red_food_cat.html" height="525" width="100%"></iframe>
 
 As expected, since we already know that most coupons are redeemed, the picture here is very much the same. People tend to use more coupons for vegetarian than for non-vegetarian products. 
 
@@ -99,8 +99,12 @@ Next, we look at the other marketing aspect: advertisement. Coupons are only hal
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/ad_types.html" height="525" width="100%"></iframe>
 
-The best postition in a magazine is certainly the front page. Approximately 15% of all meat and only 1% of the fish products are advertised on the frontpage. On the other hand, vegetarian animal product are in 30% of the time are displayed on the frontpage. The numbers for vegetables and fruits are 10% and 7% respectively. Again, it does not appear that meat or fish is particularly advertised.
+The best position in a magazine is certainly the front page. Approximately 15% of all meat and only 1% of the fish products are advertised on the front page. On the other hand, vegetarian animal product are in 30% of the time are displayed on the front page. The numbers for vegetables and fruits are 10% and 7% respectively. Again, it does not appear that meat or fish is particularly advertised.
 
-In conclusion, we can say that it seems like marketing does not promote meat and fish consumption, but instead does so for vegetarian products.
 
-## How do consumers react to those campaigns?
+
+## Conclusion
+In conclusion, we can say that it seems like marketing does not promote meat and fish consumption, but instead does so for vegetarian products, meaning that there is still hope for our planet! :-) 
+
+In Love,
+Your dADA-Scientists 
