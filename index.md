@@ -1,6 +1,6 @@
 ## Introduction
 
-The consumption of everyday commodity products offers the potential to reveal societal inequalities, as well as to identify social milieus including their habits and behaviors. With transactions from more than 2500 households from different societal status over 2 years we try to identify hidden relationships and patterns. This project work will focus on two consecutive interwined aspects: societal latent structures in consumption and transaction behavior and vegetarianism.
+The consumption of everyday commodity products offers the potential to reveal societal inequalities, as well as to identify social milieus including their habits and behaviors. With more than 2.5 mio transactions from more than 2500 households from different societal strata over 2 years we try to identify hidden relationships and patterns. This project work focuses on two consecutive interwined aspects: societal latent structures in consumption and transaction behavior and vegetarianism.
 
 ## What kind of househould do we observe?
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="test.html" height="525" width="100%"></iframe>
@@ -33,11 +33,12 @@ Meat consumption is way less clear for the different age categories. In fact we 
 
 ![Meat consumption per day and, grouped byage](images/demographics_meat_weight-age.png)
 
-It is different for the marital status, as we can see that households of married couples eat way less meat than single person households or households were the data doesn't specify. This might be due to healthier food choices made by parents, which are more likely to occur in married households.
+It is different for the marital status, as we can see that households of married couples eat way less meat than single person households or households were the data doesn't specify. This might be due to healthier food choices made by parents, which are more likely to occur in married households. Unfortunately, this can't be answered with confidence, due to the dataset not having detailed enough information about the number of kids.
 
-<div style="background-color:orange; width:100%; padding:20px; color:black;">Check this hypothesis (are there more kids in married households)!</div>
+![Meat consumption per day and, grouped by marital status](images/demographics_meat_weight-married.png)
 
-![Meat consumption per day and, grouped byage](images/demographics_meat_weight-married.png)
+However, if we regroup the existing data we have about adults without kids and kids vs singles, we can still see some amusing differences.
+
 
 ## Campaign and what kind of food they promote
 
