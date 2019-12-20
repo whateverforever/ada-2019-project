@@ -56,7 +56,10 @@ Marketing plays a big role in people's grocery shopping behaviour. Are people di
 We first look at the coupons distributed by the 30 campaigns. To get an vague idea of the campaigns, we look at how many coupons they distribute and at how many coupons are actually redeemed.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/campaign_overview.html" height="525" width="100%"></iframe>
-Let's take a closer look at the coupons and what food categories are promoted.
+
+We can see that the coupons do have an impact, since many of them actually get redeemed. In fact, around 86% of distributed coupons are getting redeemed. If we consider that the campaigns, and with them the coupons, are being designed by someone, we see that there is a strong influence on the buying actions of customers though the coupons.
+
+With that in mind, let's take a closer look at the coupons and what food categories are promoted.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/Campaign_proportion_food.html" height="525" width="100%"></iframe>
 
