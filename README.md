@@ -4,6 +4,7 @@
 
 > [Final Data Story](https://brudermueller.github.io/ada-2019-project/)
 
+
 # Abstract
 > A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
 
@@ -75,7 +76,16 @@ Add here a sketch of your planning for the next project milestone.
 Ultimately, our goal would be to combine more and more our results in order to get a precise understanding of both retailers and consumers towards meat consumption and vegetarianism in general.
 
 
+---
+# Contributions of Group Members
 
+| Member | Contribution |
+| ----- | ------ |
+| Thanh  | Design of the products categories, plot of the interactive plots for the datastory |
+| Giacomo | Campaign analysis, run statistical tests |
+| Max |  Exploratory analysis towards meat consumption of different groups, write the datastory |
+| Lara | Review and refinements of the entire analysis, write the datastory | 
+| *All* | Final Presentation, Writing up the report |
 
 
 
