@@ -57,7 +57,7 @@ It is different for the marital status, as we can see that households of married
 However, if we regroup the existing data we have about adults without kids and kids vs singles, we can still see some amusing differences.
 
 
-## Campaign and what kind of food they promote
+## Which categories of food are being promoted during campaigns?
 
 ### The Role of Coupons
 
