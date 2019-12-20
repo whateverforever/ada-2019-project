@@ -30,7 +30,7 @@ Are there differences in the meat consumption between incomes? Do people with a 
 
 Let's look at a plot of the different income groups we have. To be able to actually say anything about the data, we also plot the 95% confidence interval.
 
-![Meat consumption per day and income](images/demographics_meat_weight-income.png)
+![Meat consumption per day and income](images/demographics_meat_weight-income.svg)
 
 We notice a few things: Lower income people with an income of less than 15K per year tend to buy more meat that people that earn between 75-149K. On the one hand, this seems counter-intuitive, since meat can be very expensive. On the other hand, nowadays many cheap meat products from factory farming exist. However, if we check with our data, we see that meat in fact is more expensive than the rest, with a median price of $3.50, versus $2.66 for food in general. We use the median since the prices are heavy-tailed.
 
@@ -48,11 +48,11 @@ Meat consumption is way less clear for the different age categories. In fact we 
 
 <div style="background-color:orange; width:100%; padding:20px; color:black;">Run a test for this explicitly?</div>
 
-![Meat consumption per day and, grouped byage](images/demographics_meat_weight-age.png)
+![Meat consumption per day and, grouped byage](images/demographics_meat_weight-age.svg)
 
 It is different for the marital status, as we can see that households of married couples eat way less meat than single person households or households were the data doesn't specify. This might be due to healthier food choices made by parents, which are more likely to occur in married households. Unfortunately, this can't be answered with confidence, due to the dataset not having detailed enough information about the number of kids.
 
-![Meat consumption per day and, grouped by marital status](images/demographics_meat_weight-married.png)
+![Meat consumption per day and, grouped by marital status](images/demographics_meat_weight-married.svg)
 
 However, if we regroup the existing data we have about adults without kids and kids vs singles, we can still see some amusing differences.
 
