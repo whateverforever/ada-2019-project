@@ -50,11 +50,9 @@ Meat consumption is way less clear for the different age categories. In fact we 
 
 ![Meat consumption per day and, grouped byage](images/demographics_meat_weight-age.svg)
 
-It is different for the marital status, as we can see that households of married couples eat way less meat than single person households or households were the data doesn't specify. This might be due to healthier food choices made by parents, which are more likely to occur in married households. Unfortunately, this can't be answered with confidence, due to the dataset not having detailed enough information about the number of kids.
+If we instead look at the family status of the people building a household, we get a very clear image. Single households buy much more meat - nearly twice as much in weight - as couples with our without kids.
 
 ![Meat consumption per day and, grouped by marital status](images/demographics_meat_weight-married.svg)
-
-However, if we regroup the existing data we have about adults without kids and kids vs singles, we can still see some amusing differences.
 
 
 ## Which categories of food are being promoted during campaigns?
