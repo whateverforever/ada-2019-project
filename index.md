@@ -42,6 +42,16 @@ We can also look at the households meat consumption by splitting them according 
 
 ![Meat consumption per day and, grouped byage](images/demographics_meat_weight-age.svg)
 
+In order to find out if the differences we have seen are statistically significant, we have run a Kruskall-Wallis test for the three case studies (households splitted acccording to their income, their age and their composition). As expected, the differences among groups of different age are not significant (statistic H=10.4, p-value=0.066 > 0.05) but they are for the income (statistic H=32.2, p-value=0.00072 < 0.05) and for the household composition (statistic H=133.8, p-value=9.02e-30 < 0.05). Indeed, we have the following significant results:
+<ul>
+   <li>single people buy more meat than people with no kids (p-value=0.001)</li>
+   <li>single people buy more meat than people with kids (dp-value=0.001)</li>
+   <li>people with no kids buy more meat than the adults with kids (p-value=0.0202)</li>
+   <li>the Under 15K group buys more meat than the 100-124K group (p-value=0.0178)</li>
+   <li>the Under 15K group buys more meat than the 125-149K group (p-value=0.0103)</li>
+   <li>the Under 15K group buys more meat than the 75-99K group (p-value=0.001)</li>
+</ul>
+
 Finally, we look at household with different compositions. This time the differences seem to be significant. Indeed, single people buy a lot more meat than households with multiple people (either with or without kids). This might be due to healthier food choices made when cooking a meal for an entire family. We all know how we tend to eat lower-quality food when leaving alone. It is also interesting to notice that people with kids are actually the ones buying the less meat. This might be due to the different dietaries children have to follow in order to grow well.
 
 
