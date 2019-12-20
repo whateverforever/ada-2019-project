@@ -26,31 +26,21 @@ Further the demographic description provides insight in the financial situation 
 
 ## Consumption Behaviour
 
-Are there differences in the meat consumption between incomes? Do people with a higher income eat more or less week per? To find out, we calculate the weight of meat, bought per household and normalize this by the number of people in the household, and the duration of data-collection for this household.
+The first question we asked ourselves if there are differences in the meat consumption between diffferent income groups? Do people with a higher income eat more or less meat per week and do they invest more into vegetarian products? To find out, the weight of the meat bought per household was calculated and normalized by the number of people in the household and the duration of data-collection for the respective household.
 
-Let's look at a plot of the different income groups we have. To be able to actually say anything about the data, we also plot the 95% confidence interval.
+The plot below shows the meat consumption of the different income groups in kilos per day. To be able to actually say anything about the significance of the population, we include the 95% confidence intervals in the plot (represented as black intervals in the bars).
 
 ![Meat consumption per day and income](images/demographics_meat_weight-income.png)
 
-We notice a few things: Lower income people with an income of less than 15K per year tend to buy more meat that people that earn between 75-149K. On the one hand, this seems counter-intuitive, since meat can be very expensive. On the other hand, nowadays many cheap meat products from factory farming exist. 
+The graph reveals the following: Households with lower income (i.e. an income of less than 15K per year) tend to buy more meat that groups that earn between 75-149K. On the one hand, this might seem counter-intuitive in countries like Switzerland, since meat can be very expensive there. On the other hand, nowadays there exist many cheap meat products from factory farming, especially in countries like Germany or Austria. 
 
 <div style="background-color:orange; width:100%; padding:20px; color:black;">Include average prices of meat and other shit</div>
 
-Another interesting observation is that the lowest meat consumption comes from the high-income bracket of 200-249K. The consumption is significantly lower than of the beforementioned income brackets.
+Another interesting observation is that the lowest meat consumption comes from the second highest income group of 200-249K. The consumption is significantly lower than of the aforementioned income brackets. This provides ground for the assumption that there actually is an inverse relation between the household's income and their meat consumption. However, this is still only a very weak assumption since the share of high-income families in the data set is very small and definitely not exhaustive for the bigger population. Also, regarding the fact that the household group earning $250K+ shares roughly the average meat consumption with the other groups. Further, the household composition of these groups is not equally distributed, meaning the $200-$249K group does not incorporate any singles and the $250K group is dominated by adults without kids. Albeit the above limitations, this assumption could also imply that households and especially families with higher incomes are potentially more conscious about their food choices, buying for example fewer, but higher quality meat and more vegetables.
 
-It seems there is an inverse relation between the income people have and their meat consumption. Possible explanations might be that higher income people buy less food in general...
+Going further, meat consumption is way less clear for the different age categories. In fact we can't say there is any significant difference between the age groups after running ANOVA and other statistical tests. However, we will still show it below for the interested reader.
 
-<div style="background-color:orange; width:100%; padding:20px; color:black;">Can we check this?</div>
-
-... or that they are more conscious about their food choices, buying for example fewer, but higher quality meats.
-
-<div style="background-color:orange; width:100%; padding:20px; color:black;">Can we check this?</div>
-
-Meat consumption is way less clear for the different age categories. In fact we can't say there is any significant difference between the age groups.
-
-<div style="background-color:orange; width:100%; padding:20px; color:black;">Run a test for this explicitly?</div>
-
-![Meat consumption per day and, grouped byage](images/demographics_meat_weight-age.png)
+![Meat consumption per day and, grouped by age](images/demographics_meat_weight-age.png)
 
 It is different for the marital status, as we can see that households of married couples eat way less meat than single person households or households were the data doesn't specify. This might be due to healthier food choices made by parents, which are more likely to occur in married households. Unfortunately, this can't be answered with confidence, due to the dataset not having detailed enough information about the number of kids.
 
