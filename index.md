@@ -47,7 +47,8 @@ We first look at the coupons distributed by the 30 campaigns. To get an vague id
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/campaign_overview.html" height="525" width="100%"></iframe>
 Let's take a closer look at the coupons and what food categories are promoted.
-<!<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/Campaign_proportion_food.html" height="525" width="100%"></iframe>
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/Campaign_proportion_food.html" height="525" width="100%"></iframe>
 
 Do the campaigns promote meat and fish consumption?
 <img src="data/campaign_veg.png">
