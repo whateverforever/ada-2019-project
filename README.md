@@ -82,7 +82,7 @@ Ultimately, our goal would be to combine more and more our results in order to g
 | Member | Contribution |
 | ----- | ------ |
 | Thanh  | Design of the products categories, plot of the interactive plots for the datastory |
-| Giacomo | Campaign analysis, run statistical tests |
+| Giacomo | Exploratory analysis, Detailed Campaign analysis, Detailed statistical tests |
 | Max |  Exploratory analysis towards meat consumption of different groups, write the datastory |
 | Lara | Review and refinements of the entire analysis, write the datastory | 
 | *All* | Final Presentation, Writing up the report |

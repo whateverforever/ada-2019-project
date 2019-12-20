@@ -35,54 +35,85 @@ The first question we asked ourselves if there are differences in the meat consu
 
 The plot below shows the meat consumption of the different income groups in kilos per day. To be able to actually say anything about the significance of the population, we include the 95% confidence intervals in the plot (represented as black intervals in the bars).
 
-![Meat consumption per day and income](images/demographics_meat_weight-income.png)
+![Meat consumption per day and income](images/demographics_meat_weight-income.svg)
 
+<<<<<<< HEAD
 The graph reveals the following: Households with lower income (i.e. an income of less than 15K per year) tend to buy more meat that groups that earn between 75-149K. On the one hand, this might seem counter-intuitive in countries like Switzerland, since meat can be very expensive there. On the other hand, nowadays there exist many cheap meat products from factory farming, especially in countries like Germany or Austria. However, if we check with our data, we see that meat in fact is more expensive than the rest, with a median price of $3.50, versus $2.66 for food in general. 
+=======
+We notice a few things: Lower income people with an income of less than 15K per year tend to buy more meat that people that earn between 75-149K. On the one hand, this seems counter-intuitive, since meat can be very expensive. On the other hand, nowadays many cheap meat products from factory farming exist. However, if we check with our data, we see that meat in fact is more expensive than the rest, with a median price of $3.50, versus $2.66 for food in general. We use the median since the prices are heavy-tailed.
+
+Another interesting observation is that the lowest meat consumption comes from the high-income bracket of 200-249K. The consumption is significantly lower than of the beforementioned income brackets.
+
+It seems there is an inverse relation between the income people have and their meat consumption. Possible explanations might be that higher income people buy less food in general...
+
+<div style="background-color:orange; width:100%; padding:20px; color:black;">Can we check this?</div>
+>>>>>>> 04e8476d842812a16778cf5f24d6829cd46bd13f
 
 Another interesting observation is that the lowest meat consumption comes from the second highest income group of 200-249K. The consumption is significantly lower than of the aforementioned income brackets. This provides ground for the assumption that there actually is an inverse relation between the household's income and their meat consumption. However, this is still only a very weak assumption since the share of high-income families in the data set is very small and definitely not exhaustive for the bigger population. Also, regarding the fact that the household group earning $250K+ shares roughly the average meat consumption with the other groups. Further, the household composition of these groups is not equally distributed, meaning the $200-$249K group does not incorporate any singles and the $250K group is dominated by adults without kids. Albeit the above limitations, this assumption could also imply that households and especially families with higher incomes are potentially more conscious about their food choices, buying for example fewer, but higher quality meat and more vegetables.
 
 Going further, meat consumption is way less clear for the different age categories. In fact we can't say there is any significant difference between the age groups after running ANOVA and other statistical tests. However, we will still show it below for the interested reader.
 
+<<<<<<< HEAD
 ![Meat consumption per day and, grouped by age](images/demographics_meat_weight-age.png)
+=======
+Meat consumption is way less clear for the different age categories. In fact we can't say there is any significant difference between the age groups.
+
+<div style="background-color:orange; width:100%; padding:20px; color:black;">Run a test for this explicitly?</div>
+
+![Meat consumption per day and, grouped byage](images/demographics_meat_weight-age.svg)
+>>>>>>> 04e8476d842812a16778cf5f24d6829cd46bd13f
 
 It is different for the marital status, as we can see that households of married couples eat way less meat than single person households or households were the data doesn't specify. This might be due to healthier food choices made by parents, which are more likely to occur in married households. Unfortunately, this can't be answered with confidence, due to the dataset not having detailed enough information about the number of kids.
 
-![Meat consumption per day and, grouped by marital status](images/demographics_meat_weight-married.png)
+![Meat consumption per day and, grouped by marital status](images/demographics_meat_weight-married.svg)
 
 However, if we regroup the existing data we have about adults without kids and kids vs singles, we can still see some amusing differences.
 
 
 ## Campaigns and the corresponding food categories they promote
 
-
 ### The Role of Coupons
 
-Marketing plays a big role in people's grocery shopping behaviour. Are people directed to buy meat and fish? To take a look at that we observe two marketing aspects: Campaigns which distribute coupons and advertisment.
+Marketing plays a big role in people's grocery shopping behaviour. Are people directed to buy meat and fish? To take a look at that we observe two marketing aspects: the discount coupons distributed during promotional campaigns and advertisement.
 
-We first look at the coupons distributed by the 30 campaigns. To get an vague idea of the campaigns, we look at how many coupons they distribute and at how many coupons are actually redeemed.
+We first look at the coupons distributed during the 30 campaigns. To get a vague idea of the campaigns, we look at how many coupons they distribute and at how many coupons are actually redeemed. It is important to consider both the distributed and the redeemed coupons as we want to not only consider the marketing choices but also how people respond to them.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/campaign_overview.html" height="525" width="100%"></iframe>
 
-We can see that the coupons do have an impact, since many of them actually get redeemed. In fact, around 86% of distributed coupons are getting redeemed. If we consider that the campaigns, and with them the coupons, are being designed by someone, we see that there is a strong influence on the buying actions of customers though the coupons.
+We can see that the coupons do have an impact, since many of them actually get redeemed. In fact, around 86% of distributed coupons are getting redeemed. This means coupons (and promotional campaigns in general) do have a way to influence people consumption behaviours: if many coupons are distributed for specific products and people tend to redeem them, the sales of those specific products will go up.
 
-With that in mind, let's take a closer look at the coupons and what food categories are promoted.
+With that in mind, let's take a closer look at the coupons and which food categories are promoted. We display the proportions of coupons distributed in the ten categories of food previously designed. Note that the remaining parts of distributed coupons are for non-food products.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/Campaign_proportion_food.html" height="525" width="100%"></iframe>
 
-Feel free to explore what kind of food items are being promoted by the campaigns. When you're ready, continue on to find out what part meat and fish play in the campaigns.
+Feel free to explore what kind of food items are being promoted by the campaigns. When you're ready, continue on to find out what part meat and seafood (the non-vegetarian products) play in the campaigns.
 
-### Promotions for Meat and Fish
+### Promotions for Meat and Seafood
+
+Let's have a look at the proportions of coupons distributed for vegetarian and non-vegetarian products.
+
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/coupon_dis_food_cat.html" height="525" width="100%"></iframe>
 
-The campaign individual shares of meat or fish related coupons are mostly low. Furthermore, vegetarian products seem to be promoted more. Also worth looking into is to see how many of the distributed coupons are redeemed in the end.
+We can see that the campaign individual shares of meat or seafood related coupons are mostly low. Only in 5 campaigns out of 30 the proportion of coupons distributed for non-vegetarian products is higher (campaigns 8, 13, 17, 18 and 23). It seems that campaigns tend to promote more vegetarian products, but do we have the same picture from the people point of view? Let's have a look at the proportions of coupons redeemed by the households to answer this. Here again, we have grouped products into two categories: vegetarian and non-vegetarian.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/coupon_red_food_cat.html" height="525" width="100%"></iframe>
 
-The proportions of distributed and redeemed coupons are quite similar. Thus, the usage rate of meat and fish coupons and vegetarian coupons are comparable aswell. Testing if there is a difference between vegetarian and non-vegetarian coupons, we find that there actually are significantly (95% CI) more coupons distributed for vegetarian than non-vegetarian products. However, the difference was not significant for the redeemed filtered coupons, shown in the right barchart.
+The proportions of distributed and redeemed coupons are quite similar. Thus, the usage rate of meat and fish coupons and vegetarian coupons are comparable as well. Testing if there is a difference between vegetarian and non-vegetarian coupons, we find that there actually are significantly (95% CI) more coupons distributed for vegetarian than non-vegetarian products. However, the difference was not significant for the redeemed filtered coupons, shown in the right bar chart.
+
+As expected, since we already know that most coupons are redeemed, the picture here is very much the same. People tend to use more coupons for vegetarian than for non-vegetarian products. 
+
+Let's try to summarize these observations by having a more general view, looking at the average proportion of coupons distributed and redeemed for vegetarian and non-vegetarian products, across all the campaigns. We display those means with the corresponding errors at 95% confidence level. 
+
 
 ![](images/veg-nonveg-coupons.png)
 
-We can draw the conclusion that campaigns do not direct people to buy non-vegetarian food. Quite the opposite, it seems like more effort is spent on trying to sell non-meat and non-fish coupons!
+Since the errorbars seem to overlap (at least for the coupons redeemed) we run additional statistical tests to find out if the differences observed are significant. The proportions of coupons are the following:
+<ul>
+  <li>coupons distributed: 20.2 $\pm$ 9.24 % (veg) vs 7.55 $\pm$ 4.16 % (non-veg)</li>
+  <li>coupons redeemed: 14.4 $\pm$ 8.12 % (veg) vs 6.11 $\pm$ 3.63 % (non-veg)</li>
+</ul>
+
+Since the assumptions of normality and equality of variances are not met by the two groups of coupons, we have run the Mann-Whitneyu's test to find out if the differences are indeed significant. The results are conclusive for the coupons distributed (U=297, p-value=0.0117 < 0.05), meaning there is a significant difference in the proportion of coupons distributed for vegetarian and for non-vegetarian products. Unfortunately this is not the case for the coupons redeemed (U=370, p-value=0.1162 > 0.05), meaning that the proportions in the two categories could in fact be similar.
 
 ---
 
