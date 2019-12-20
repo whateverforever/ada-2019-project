@@ -4,6 +4,14 @@
 
 > [Final Data Story](https://brudermueller.github.io/ada-2019-project/)
 
+Who has done what:
+* Thanh: design of the products categories, plot of the interactive plots for the datastory
+* Max: exploratory analysis towards meat consumption of different groups, write the datastory
+* Lara: review of the analysis, write the datastory
+* Giacomo: campaign analysis, run statistical tests 
+
+We will all work on the final presentation.
+
 # Abstract
 > A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
 
