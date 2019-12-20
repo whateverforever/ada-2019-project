@@ -30,7 +30,7 @@ Are there differences in the meat consumption between incomes? Do people with a 
 
 Let's look at a plot of the different income groups we have. To be able to actually say anything about the data, we also plot the 95% confidence interval.
 
-![Meat consumption per day and income](images/demographics_meat_weight-income.png)
+![Meat consumption per day and income](images/demographics_meat_weight-income.svg)
 
 We notice a few things: Lower income people with an income of less than 15K per year tend to buy more meat that people that earn between 75-149K. On the one hand, this seems counter-intuitive, since meat can be very expensive. On the other hand, nowadays many cheap meat products from factory farming exist. However, if we check with our data, we see that meat in fact is more expensive than the rest, with a median price of $3.50, versus $2.66 for food in general. We use the median since the prices are heavy-tailed.
 
@@ -48,11 +48,11 @@ Meat consumption is way less clear for the different age categories. In fact we 
 
 <div style="background-color:orange; width:100%; padding:20px; color:black;">Run a test for this explicitly?</div>
 
-![Meat consumption per day and, grouped byage](images/demographics_meat_weight-age.png)
+![Meat consumption per day and, grouped byage](images/demographics_meat_weight-age.svg)
 
 If we instead look at the family status of the people building a household, we get a very clear image. Single households buy much more meat - nearly twice as much in weight - as couples with our without kids.
 
-![Meat consumption per day and, grouped by marital status](images/demographics_meat_weight-married.png)
+![Meat consumption per day and, grouped by marital status](images/demographics_meat_weight-married.svg)
 
 
 ## Which categories of food are being promoted during campaigns?
