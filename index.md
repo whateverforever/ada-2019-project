@@ -31,10 +31,13 @@ It is also interesting to see how many of the distributed coupons are redeemed i
 
 The proportions of distributed and redeemed coupons are quite similar. Thus, the usage rate of meat and fish coupons and vegetarian coupons are comparable aswell. We can draw the conclusion that campaigns do not direct people to buy non-vegetarian food. 
 
-Next, we look at the other marketing aspect: advertisement.
+Next, we look at the other marketing aspect: advertisement. How are the different food categories advertised?
 
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="data/ad_types.html" height="525" width="100%"></iframe>
 
+The best postition in a magazine is certainly the front page. Approximately 15% of all meat and only 1% of the fish products are advertised on the frontpage. On the other hand, vegetarian animal product are in 30% of the time are displayed on the frontpage. The numbers for vegetables and fruits are 10% and 7% respectively. Again, it does not appear that meat or fish is particularly advertised.
 
-- Where are the ads placed for non-veg and veg
+In conclusion, we can say that marketing does not promote meat and fish consumption.
+
 
 ## How do consumers react to those campaigns?
