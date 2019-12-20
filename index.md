@@ -1,9 +1,5 @@
-<header>
-  <h1>Can marketing help us being vegetarian?</h1>
-  <h2>A societal study identifying meat consumption patterns</p>
-</header>
-
-<<<<<<< HEAD
+<h1>Can marketing help us being vegetarian?</h1>
+<h2>A societal study identifying meat consumption patterns</h2>
 
 >Climate change is no longer some far-off problem; it is happening here, it is happening now.
 > -- <cite>[Barack Obama][1]</cite>
@@ -15,9 +11,6 @@
 Since this project's overall goal is **"Data Science for the good"**, an analysis of our daily consumption of everyday commodity products taken from Household Transactional Data offers the potential to reveal patterns and latent structures and relations in the interaction of marketing and transaction behavior on meat and vegetarian products. With transactions from more than 2500 households from different societal status over 2 years the data set "[Dunnhumby - The complete journey](https://www.dunnhumby.com/careers/engineering/sourcefiles)", used in this analysis, offers the chance to link societal status, income and living constellations to a topic which gains more and more importance **our meat consumption**. 
 
 Knowledge about interdependencies and drivers of customer preferences and behaviors is a crucial factor for effective customer-based strategies. Having these insights at hand, it might be possible to develop new strategies to actively take influence on improving awareness for meat consumption via more precisely targeted advertisements and promotions, satisfying both the customer himself, as well as the retail industry. For instance, a correlation of households with lower income households exhibiting a less balanced/more meat-focused food could be dispersed by placing well-suited advertisements for more vegetarian food.
-=======
-The consumption of everyday commodity products offers the potential to reveal societal inequalities, as well as to identify social milieus including their habits and behaviors. With more than 2.5 mio transactions from more than 2500 households from different societal strata over 2 years we try to identify hidden relationships and patterns. This project work focuses on two consecutive interwined aspects: societal latent structures in consumption and transaction behavior and vegetarianism.
->>>>>>> f8fa88cc671f5d88c575d7359de4dd71fa78ddd7
 
 ## What kind of househould do we observe?
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="test.html" height="525" width="100%"></iframe>
