@@ -2,6 +2,8 @@
 
 > File with analysis: `data_analysis.ipynb`
 
+> [Final Data Story](https://brudermueller.github.io/ada-2019-project/)
+
 # Abstract
 > A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
 
@@ -72,20 +74,8 @@ Add here a sketch of your planning for the next project milestone.
 
 Ultimately, our goal would be to combine more and more our results in order to get a precise understanding of both retailers and consumers towards meat consumption and vegetarianism in general.
 
----
-# Preliminary Results of Analysis
-*  Campaign Analysis
-  * Proportion of coupons per food category per campaign: both for distributed and redeemed coupons -- distributions of coupons over different categories do not reveal much new insights since they are spread quite randomly across categories 
-  * Looking only at binary categories (namely _vegetarian_ vs. _non-vegetarian_) of the proportion of coupons per campaign however, there is a difference: **coupons were distributed and redeemed more for vegetarian products than for non-vegetarian products (i.e. meat & seafood)**
-  * Looking at **how much money is actually saved** in each campaign instead of the number of coupons in general, household also save significantly higher amounts on vegetarian products
-  
-* Meat Consumption along demographic categories
-  * 19-24 year olds eat **more** meat thann 65+ year olds
-    - [ ] run significance tests
-  * Normalized amount (per day and household size) of meat of married people is lower than of single people 
-  * _Income_: People <15k income eat the most meat, half of higher income (starting at 75k income) categories eat less meat than <15k category
-     - [ ] Investigate 250k+ cluster 
-   * tbc
+
+
 
 
 
